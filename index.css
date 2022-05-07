@@ -1,0 +1,48 @@
+body{
+    background:url('tele.jpg') no-repeat;
+  }
+
+.VerifyDate{
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  align-items: center;
+}
+
+.Pagina{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  color: white;
+}
+
+h1,p {
+  color: white;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+}
+
+iframe {
+  width: 500px;
+  height: 300px;
+  
+}
+
+::-webkit-datetime-edit { padding: 1em; }
+::-webkit-datetime-edit-fields-wrapper { background: silver; }
+::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+::-webkit-datetime-edit-month-field { color: blue; }
+::-webkit-datetime-edit-day-field { color: green; }
+::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-inner-spin-button { display: none; }
