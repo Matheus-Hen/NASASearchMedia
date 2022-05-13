@@ -1,5 +1,7 @@
 body{
     background:url('tele.jpg') no-repeat;
+    cursor: url('cursorTel.png'), pointer;
+    height: 600px;
   }
 
 .VerifyDate{
@@ -16,6 +18,7 @@ body{
   align-items: center;
   color: white;
 }
+
 
 h1,p {
   color: white;
@@ -42,7 +45,7 @@ iframe {
 ::-webkit-datetime-edit { padding: 1em; }
 ::-webkit-datetime-edit-fields-wrapper { background: silver; }
 ::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
-::-webkit-datetime-edit-month-field { color: blue; }
-::-webkit-datetime-edit-day-field { color: green; }
-::-webkit-datetime-edit-year-field { color: purple; }
+::-webkit-datetime-edit-month-field { color: red; }
+::-webkit-datetime-edit-day-field { color: red; }
+::-webkit-datetime-edit-year-field { color: red; }
 ::-webkit-inner-spin-button { display: none; }

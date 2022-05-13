@@ -1,7 +1,6 @@
 $('#submit').click(function (e) { 
     e.preventDefault();
     var data = '&date='+$('#dataDesejada').val();
-    console.log(data)
     $.ajax({
         type: "GET",
         url: "https://api.nasa.gov/planetary/apod?api_key=CpFdlhOjhGTw5cC8gvoP6NqGCQ3efe50nEzFv2Ft" + data,
@@ -19,7 +18,6 @@ function Select(nasa){
     CriaTitulo(nasa)
     var verify = nasa.url.split('')
     var i = verify.length
-    console.log(verify[i-1], verify[i-2], verify[i-3])
     if(verify[i-1] == 'g' && verify[i-2] == 'p' && verify[i-3] == 'j')CriaImg(nasa)
     else if(verify[i-1] == 'f' && verify[i-2] == 'i' && verify[i-3] == 'g')CriaImg(nasa)
     else CriaVideo(nasa)
